@@ -1,0 +1,46 @@
+[
+  {
+    "nombre": "Pikachu",
+    "tipo": "electrico",
+    "vida": 100,
+    "defensa": 65,
+    "ataques": [
+      { "nombre": "Impactrueno", "potencia": 40 },
+      { "nombre": "Chispazo", "potencia": 20 },
+      { "nombre": "Voltio Cruel", "potencia": 60 }
+    ]
+  },
+  {
+    "nombre": "bulbasur",
+    "tipo": "planta",
+    "vida": 100,
+    "defensa": 75,
+    "ataques": [
+      { "nombre": "Arraigo", "potencia": 40 },
+      { "nombre": "lluevehojas", "potencia": 90 },
+      { "nombre": "ciclon de hojas", "potencia": 85 }
+    ]
+  },
+  {
+    "nombre": "charmander",
+    "tipo": "fuego",
+    "vida": 100,
+    "defensa": 75,
+    "ataques": [
+      { "nombre": "lanzallamas", "potencia": 80 },
+      { "nombre": "arañazo", "potencia": 90 },
+      { "nombre": "malicioso", "potencia": 85 }
+    ]
+  },
+  {
+    "nombre": "charmander",
+    "tipo": "fuego",
+    "vida": 100,
+    "defensa": 75,
+    "ataques": [
+      { "nombre": "lanzallamas", "potencia": 80 },
+      { "nombre": "arañazo", "potencia": 90 },
+      { "nombre": "malicioso", "potencia": 85 }
+    ]
+  }
+]
