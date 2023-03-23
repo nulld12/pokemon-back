@@ -150,7 +150,7 @@ const combates = [
       // si existe el combate lo elimina de la lista y develve el estado 200
       let indice = combates.indexO(combate);// obtenemos la posición o indice del elemento
       combates.splice(indice,1);// y lo borramos solo una vez ya que uno representa las veces que queremos eliminar un elemento
-      res.status(200).send("status: ok");
+      res.status(200).send({"status": "ok"});
     }
   });
 

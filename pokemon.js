@@ -55,8 +55,8 @@ router.post("/nuevo", (req, res) => {
     // si tiene los atributos añadira el nuevo pokemon al Json
     lista_pokemons.push(nuevo_pokemon);
     // con el  fs writeFileSync añadiremos el nuevo pokemon a la lista de pokemons
-    fs.writeFileSync("pokemons.json", JSON.stringify(lista_pokemons));
-    res.status(200).send("status: ", "ok");
+    fs.writeFileSync("pokemons.json", JSON.stringify(lista_pokemons, null, 2));
+    res.status(200).send({"status": "ok"});
   }
 });
   module.exports =router;
